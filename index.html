@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b89aabd7a6.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="sidebar-hidden">
+    <div class="container">
+        <!-- header kısmı bura / navbar -->
+        <header>
+            <nav class="navbar">
+                <div class="nav-section nav-left">
+                    <button class="nav-button menu-button">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <a href="#" class="nav-logo">
+                        <img src="resimler/logo.png" alt="Logo" class="logo-image">
+                        <h2 class="logo-text">EfeTube</h2>
+                    </a>
+                </div>
+                <div class="nav-section nav-center">
+                    <form action="#" class="search-form">
+                        <input type="search" placeholder="search" required class="search-input">
+                        <button class="nav-button search-button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                    <button class="nav-button mic-button">
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+                </div>
+                <div class="nav-section nav-right">
+                    <button class="nav-button search-button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button class="nav-button theme-button">
+                        <i class="fa-regular fa-moon"></i>
+                    </button>
+                    <img src="resimler/ben.jpg" alt="user image" class="user-image">
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-layout">
+            <div class="screen-overlay">
+
+            </div>
+            <!-- side bar -->
+            <aside class="sidebar">
+                <div class="nav-section nav-left">
+                    <button class="nav-button menu-button">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <a href="#" class="nav-logo">
+                        <img src="resimler/logo.png" alt="Logo" class="logo-image">
+                        <h2 class="logo-text">EfeTube</h2>
+                    </a>
+                </div>
+
+                <div class="link-container">
+                    <div class="link-section">
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-house" style="color: blueviolet;"></i> Home
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-video" style="color: blueviolet;"></i> Shorts
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-thumbs-up" style="color: blueviolet;"></i>Abonelikler
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <h4 class="section-title">You</h4>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-circle-user" style="color: blueviolet;"></i> Kanalın
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-clock-rotate-left" style="color: blueviolet;"></i> Geçmiş
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-clock" style="color: blueviolet"></i> Daha Sonra İzle
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <h4 class="section-title">Keşfet</h4>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-fire" style="color: blueviolet;"></i> Trend
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-music" style="color: blueviolet;"></i> Müzik
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-gamepad" style="color: blueviolet;"></i> Oyun
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-trophy" style="color: blueviolet;"></i> Spor
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <h4 class="section-title">EfeTube Daha Fazla</h4>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-shield-cat" style="color: blueviolet;"></i> EfeTube Plus
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-headphones" style="color: blueviolet;"></i>EfeTube Müzik
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-child-reaching" style="color:blueviolet;"></i> EfeTube Çoçuk
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-gear" style="color: blueviolet;"></i> Ayarlar
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-triangle-exclamation" style="color: blueviolet;"></i> Şikayet
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-question" style="color: blueviolet;"></i> Yardım
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-notes-medical" style="color: blueviolet;"></i> Geribildirim
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+
+                </div>
+            </aside>
+            <div class="content-wrapper">
+                <!-- Kategori listesi -->
+                <div class="category-list">
+                    <button class="category-button active">All</button>
+                    <button class="category-button">Website</button>
+                    <button class="category-button">Müzik</button>
+                    <button class="category-button">Oyun</button>
+                    <button class="category-button">Node.js</button>
+                    <button class="category-button">JavaScript</button>
+                    <button class="category-button">React.js</button>
+                    <button class="category-button">Kodlama</button>
+                    <button class="category-button">Next.js</button>
+                    <button class="category-button">Veri Analizi</button>
+                    <button class="category-button">Web Tasarımı</button>
+                    <button class="category-button">HTML</button>
+                    <button class="category-button">Tailwind</button>
+                    <button class="category-button">CSS</button>
+                    <button class="category-button">Express.js</button>
+                </div>
+                <!--Video listesi -->
+                <div class="video-list">
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/axolot.jpg" alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 1</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/jellyfish.jpg" alt="thumbnail" class="thumbnail">
+                            <p class="duration">9:45</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 2</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">270K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/foto3.jpg" alt="thumbnail"
+                                class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 3</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/foto4.jpg" alt="thumbnail"
+                                class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 4</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/foto5.jpg" alt="thumbnail"
+                                class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 5</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/foto6.jpg" alt="thumbnail"
+                                class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 6</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/foto7.jpg" alt="thumbnail"
+                                class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 7</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/foto8.jpg"
+                                class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 8</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/foto9.jpg" alt="thumbnail"
+                                class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 9</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/foto10.jpg" alt="thumbnail"
+                                class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 10</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/foto11.jpg" alt="thumbnail"
+                                class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 11</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/foto12.jpg" alt="thumbnail"
+                                class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 12</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/foto13.jpg" alt="thumbnail"
+                                class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 13</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="resimler/foto14.jpg" alt="thumbnail"
+                                class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="resimler/ben.jpg" alt="channel logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Deneme Video 14</h2>
+                                <p class="channel-name">EfeArda</p>
+                                <p class="views">27K Görüntüleme • 4 Ay Önce</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
