@@ -162,7 +162,7 @@ body.sidebar-hidden .main-layout .sidebar {
 }
 
 .sidebar .link-container {
-    pozition: fixed;
+    position: fixed;
     overflow-y: auto;
     padding: 1rem 0 2rem ;
     scrollbar-width: thin;
