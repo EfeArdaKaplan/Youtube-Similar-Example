@@ -152,6 +152,7 @@ header {
 }
 
 body.sidebar-hidden .main-layout .sidebar {
+    display: none;
     width: 0;
     padding: 0;
 }
